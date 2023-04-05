@@ -270,10 +270,10 @@ textarea {
 }
 
 .main-btn {
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 900;
     font-family: "Oswald", sans-serif;
-    color: #fff;
+    color: #03384b;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
@@ -281,10 +281,14 @@ textarea {
     background-color: #fff;
     border: 2px solid #fff;
     position: relative;
-    height: 60px;
-    line-height: 60px;
+    height: 39px;
+    line-height: 40px;
 }
 
+.main-btn1{
+    font-size: 19px;
+    height: 45px;
+}
 .main-btn::after,
 .main-btn::before {
     position: absolute;
@@ -325,12 +329,14 @@ textarea {
 .main-btn.btn-filled {
     cursor: pointer;
     background-color: #c59912;
-    border-color: #c59912;
+    /* border-color: #c59912; */
+    border: none;
+    border-radius: 61px;
 }
 
 .main-btn.btn-filled::after,
 .main-btn.btn-filled::before {
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .main-btn.btn-filled:hover {
@@ -901,7 +907,7 @@ header .mainmenu-area .main-menu {
 }
 
 header .mainmenu-area .main-menu .logo img {
-    max-width: 171px;
+    max-width: 198px;
 }
 
 @media (max-width: 399px) {
@@ -1305,7 +1311,7 @@ header.header-three .mainmenu-area {
 }
 
 header.header-three .mainmenu-area .main-menu {
-    grid-column-gap: 73px;
+    grid-column-gap: 129px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -2223,7 +2229,7 @@ header .container.container-custom-one {
 }
 
 .banner-section .banner-shape-three svg path {
-    fill: #f3f9fd;
+    fill: #ffffff;
     -webkit-transform-origin: center;
     transform-origin: center;
     -webkit-transform: rotateY(0deg);
@@ -3553,7 +3559,7 @@ header .container.container-custom-one {
 }
 
 .services-secton.featured-service {
-    background: #f3f9fd;
+    background: #ffffff;
 }
 
 .services-secton.featured-service.mt-negative {
@@ -11990,7 +11996,7 @@ footer.footer-style-three .copy-right-area a:hover {
   /*background: #fff;
   padding: 12px 10px;*/
   text-align: end;
-  right: -168px;
+  right: -193px;
 }
 @media (min-width: 399px) and (max-width: 991px) {
   .mrd-right{
@@ -12621,3 +12627,33 @@ video {
     padding: 0 10px;
   }
 }
+
+
+
+
+
+  
+     
+  img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+ 
+
+
+      .row {
+        margin: 15px;
+      }
+
+
+      .tst-text{
+            color: white;
+      }
